@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Web Page</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/estilos.css" as="style">
+    <link rel="stylesheet" href="css/estilos.css ">
+
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Jesús Pérez <span>Developer</span> </h1>
+    </header>
+    <div class="bg">
+        <nav class="navegador contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre Mi</a>
+            <a href="#">Proyectos</a>
+            <a href="#">Contacto</a>
+
+        </nav>
+    </div>
+    <section class="principal">
+        <div class="contenido-principal">
+            <h2 class="titulo2">Diseño y Desarrollo Web Freelancer</h2>
+
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-code" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M11.85 21.48a1.992 1.992 0 0 1 -1.263 -.58l-4.244 -4.243a8 8 0 1 1 13.385 -3.585" />
+                    <path d="M20 21l2 -2l-2 -2" />
+                    <path d="M17 17l-2 2l2 2" />
+                </svg>
+                Madrid, España
+            </p>
+
+            <a class="boton" href="#">Contactar</a>
+        </div>
+    </section>
+
+    <main class="contenedor sombra">
+
+        <h2>Mis Servicios</h2>
+        <div class="servicios">
+            <section class="servicio-seccion">
+
+                <h3>Diseño Web</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-desktop-heart" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M10 16h-6a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v6" />
+                        <path d="M7 20h3.5" />
+                        <path d="M9 16v4" />
+                        <path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z" />
+                    </svg>
+                </div>
+                <p>Quisque ornare, ipsum in sagittis euismod, est velit dignissim purus, semper elementum neque elit id mi. Maecenas dui diam, interdum a augue ut, pellentesque congue augue.</p>
+            </section>
+
+
+
+            <section class="servicio-seccion">
+                <h3>E-Commerce</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-bag" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z" />
+                        <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+                    </svg>
+                </div>
+                <p>Quisque ornare, ipsum in sagittis euismod, est velit dignissim purus, semper elementum neque elit id mi. Maecenas dui diam, interdum a augue ut, pellentesque congue augue.</p>
+            </section>
+        </div>
+    
+
+        <section>
+
+            <h2>Contacto</h2>
+
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contáctame rellenando todos los campos</legend>
+                    <div class="campos-formulario">
+                        <div class="campos">
+                            <label for="">Nombre</label>
+                            <input class="text" type="text" placeholder="Tu Nombre">
+                        </div>
+                        
+                        <div class="campos">
+                            <label for="">Teléfono</label>
+                        <input class="text" type="tel" placeholder="Tu Teléfono">
+                        </div>
+                        
+                        <div class="campos">
+                            <label for="">Correo</label>
+                        <input class="text" type="email" placeholder="Tu Email">
+                        </div>
+
+                        <div class="campos">
+                            <label for="">Mensaje</label>
+                        <textarea class="text" name="" id="" cols="10" rows="2"></textarea>
+                        </div>
+                    </div>
+                    <div class="base">
+                        <input class="boton boton2" type="submit" value="enviar">
+                    </div>
+                    
+                </fieldset>
+            </form>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Todos los derechos reservados. Jesús Pérez Developer. <a href="https://www.freepik.es/vector-gratis/banner-desarrollo-sitios-web_5467393.htm#page=4&query=diseno%20web&position=3&from_view=search&track=ais" target="_blank">Imagen de vectorpouch</a> en Freepik</p>
+    </footer>
+    
+    
+</body>
+</html>
